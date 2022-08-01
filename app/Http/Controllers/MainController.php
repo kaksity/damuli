@@ -10,7 +10,7 @@ use App\Models\SuperAdmin;
 use App\Models\VehicleFuel;
 use App\Models\VehicleMaintenance;
 
-class mainController extends Controller
+class MainController extends Controller
 {
     /**
      * Display a listing of the resource.

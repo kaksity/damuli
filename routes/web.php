@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SuperAdminController;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\mainController;
+use App\Http\Controllers\MainController;
 use App\Http\Controllers\OrganizationController;
 use App\Http\Controllers\FleetOfficerController;
 use App\Http\Controllers\vehicleController;
@@ -46,7 +46,7 @@ Route::post('authenticate', [LoginController::class, 'authentication']);
 
 Route::view('register','register');
 Route::post('store', [SuperAdminController::class, 'store']);
-Route::get('Dashboard', [mainController::class, 'index']);
+Route::get('Dashboard', [MainController::class, 'index']);
 
 Route::get('Organization', [OrganizationController::class, 'index']);
 Route::post('addOrganization', [OrganizationController::class, 'store']);

@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\User;
 use App\Models\FleetOfficer;
 
-class loginController extends Controller
+class LoginController extends Controller
 {
     /**
      * Display a listing of the resource.
